@@ -9,5 +9,5 @@ It will connect to all screens it is connected to and draw on them.
 
 - Even on one screen the delay between each character is _waaaaay_ too slow... not really sure how to handle this, gonna jump into some online threads and get some help.
 
-
-
+## Installation
+Just create the file and run it, simple. If you want to autorun it, rename it to `autorun.lua` and stick it in the root directory.
