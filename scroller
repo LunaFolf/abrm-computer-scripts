@@ -39,7 +39,7 @@ while true do
       term.setCursor(w-i, 1)
       term.write(string.sub(textToWrite, 1, i))
     end
-    os.sleep(0.1)
+    os.sleep(0.01)
   end
 
   os.sleep(5)
