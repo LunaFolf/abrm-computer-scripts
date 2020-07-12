@@ -19,7 +19,7 @@ while true do
   for i=0,textLength do
 
     for k, v in pairs(screens) do
-      gpu.bind(k)
+      gpu.bind(k, false)
       local resX, resY = gpu.getResolution()
       if (resX ~= maxResX and resY ~= maxResY) then
         gpu.setResolution(maxResX, maxResY)
